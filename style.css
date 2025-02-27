@@ -1,0 +1,36 @@
+/* DELETE VISUAL GUIDE BORDERS LATER */
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;   
+}
+
+.header {
+    border: 2px solid green;
+}
+
+.info {
+    border: 2px solid orange;
+}
+
+.quote {
+    border: 2px solid purple;
+}
+
+.action {
+    border: 2px solid blue;
+}
+
+.footer {
+    border: 2px solid red;
+}
+
+.header div, .info div, .quote div, .action div, .footer div {
+    border: 2px solid yellow;
+}
+
+h1, ul, p, button {
+    border: 2px solid pink;
+}
