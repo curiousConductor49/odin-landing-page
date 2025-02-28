@@ -2,10 +2,13 @@
 
 html {
     box-sizing: border-box;
+    font-family: Roboto, Tahoma;
 }
 *, *::before, *::after {
     box-sizing: inherit;   
 }
+
+/* UGLY BORDER VISUAL GUIDE START */
 
 .header {
     border: 2px solid green;
@@ -33,4 +36,18 @@ html {
 
 h1, ul, p, button {
     border: 2px solid pink;
+}
+
+/* UGLY BORDER VISUAL GUIDE END */
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.info, .action {
+    background-color: #FFFFFF;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
