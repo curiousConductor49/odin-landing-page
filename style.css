@@ -44,10 +44,73 @@ h1, ul, p, button {
     background-color: #1F2937;
 }
 
-.info, .action {
+.inner-header-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.inner-header-content p, .header .nav-links, .header .img-placeholder {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo-text {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.info {
     background-color: #FFFFFF;
+}
+
+.info-intro {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info .img-subtext {
+    color: #1F2937;
 }
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-speaker {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.action {
+    background-color: #3882F6;
+    font-size: 18px;
+}
+
+.action .inner-action-content {
+    color:#FFFFFF;
+}
+
+.action-title {
+    font-weight: 700;
+}
+
+.footer {
+    color:#E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
 }
