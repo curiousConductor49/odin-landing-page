@@ -77,6 +77,11 @@ body {
     list-style-type: none;
 }
 
+.nav-links a {
+    text-decoration: none;
+}
+
+
 .header-content {
     display: flex;
     justify-content: center;
@@ -108,7 +113,7 @@ body {
     color: #F9FAF8;
 }
 
-.inner-header-content p, .header .nav-links, .header .img-placeholder {
+.inner-header-content p, .header .nav-links a, .header .img-placeholder {
     font-size: 18px;
     color: #E5E7EB;
 }
