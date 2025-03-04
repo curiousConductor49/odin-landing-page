@@ -22,11 +22,7 @@ html {
     border: 2px solid blue;
 }
 
-.footer {
-    border: 2px solid red;
-}
-
-.info div, .quote div, .action div, .footer div {
+.info div, .quote div, .action div {
     border: 2px solid yellow;
 }
 
@@ -164,6 +160,10 @@ body {
 
 .footer {
     color:#E5E7EB;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
