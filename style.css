@@ -14,15 +14,11 @@ html {
     border: 2px solid orange;
 }
 
-.quote {
-    border: 2px solid purple;
-}
-
 .action {
     border: 2px solid blue;
 }
 
-.info div, .quote div, .action div {
+.info div, .action div {
     border: 2px solid yellow;
 }
 
@@ -132,17 +128,23 @@ body {
     background-color: #E5E7EB;
 }
 
+.quote-content {
+    margin: 0px 250px;
+}
+
 .quote-text {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    text-align: center;
 }
 
 .quote-speaker {
     color: #1F2937;
     font-size: 18px;
     font-weight: 700;
+    text-align: right;
 }
 
 .action {
